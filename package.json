@@ -1,0 +1,25 @@
+{
+  "name": "myprotfileweb",
+  "version": "1.0.0",
+  "description": "repositorio destinado al desarrollo de un portfolio web",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanTomas/myprotfileweb.git"
+  },
+  "keywords": [],
+  "author": "Tomás Esteban Valiente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebanTomas/myprotfileweb/issues"
+  },
+  "homepage": "https://github.com/EstebanTomas/myprotfileweb#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
