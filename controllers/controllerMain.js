@@ -1,7 +1,7 @@
 
 const controllerMain = {
     main: (req, res) => {
-        console.log("buena.");
+        res.render("mainPage");
     }
 }
 
