@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mainPage.css">
+    <title>DevTomás</title>
+</head>
+
+<body>
+    <!-- 
+        section
+        div
+        img
+        main
+        p
+        br
+     -->
+    <header class="header-container">
+        <div class="div-main">
+            <section class="oneSection">
+                <h4>Tomás Esteban Valiente</h4>
+                <h5>FullStack Developer</h5>
+            </section>
+            <section class="twoSection">
+                <nav class="nav-bar">
+                    <li class="the-bar-links">
+                        HTML5
+                    </li>
+                    <li class="the-bar-links">
+                        CSS3
+                    </li>
+                    <li class="the-bar-links">
+                        JavaScritp
+                    </li>
+                    <li class="the-bar-links">
+                        MySQL
+                    </li>
+                    <li class="the-bar-links">
+                        UI-UX Desing
+                    </li>
+                </nav>
+            </section>
+        </div>
+    </header>
+    <!-- probando entrada de datos, excelente. -->
+    <main>
+        <% skills.forEach(i => { %>
+
+            <%= `mi skill es ${i} `%> <br>
+            <% }) %>
+    </main>
+    <footer></footer>
+    <script src="/js/mainPage.js"></script>
+</body>
+
+</html>

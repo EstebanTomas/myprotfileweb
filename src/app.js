@@ -16,7 +16,7 @@ app.listen(PORT, (req, res) => {
 // })
 
 // implementación de la carpeta publica 
-const PublicPath = path.join(__dirname, "./public");
+const PublicPath = path.join(__dirname, "../public");
 app.use(express.static(PublicPath));
 // implementación de ejs 
 // 1 indico la dirección a la carpeta "views"

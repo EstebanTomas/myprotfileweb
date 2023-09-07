@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+/* #### STYLE THE HEADER #### */
+.header-container {
+    box-shadow: 0px 0px 10px gray;
+    height: 50px;
+    position: relative;
+    top: 0px;
+}
+.div-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    border: solid red;
+}
+/* 
+.header-container {
+    width: 100vw;
+    height: 40px;
+    border: solid 1px red;
+    box-shadow: 0px 1px 10px gray;
+}
+
+.div-main {
+    width: 90%;
+    margin: auto;
+    border: dotted green 1px;
+    display: flex;
+}
+
+.oneSection {
+    border: solid 1px black;
+}
+.twoSection {
+    border: solid 1px black;
+} */

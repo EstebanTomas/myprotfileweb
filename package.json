@@ -4,7 +4,7 @@
   "description": "repositorio destinado al desarrollo de un portfolio web",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
