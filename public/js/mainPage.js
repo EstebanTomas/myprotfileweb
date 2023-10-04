@@ -5,10 +5,13 @@
 // todo el recorrido de la pagína
 // */ 
 
+// MENU
 let conteiner = document.querySelector("div.iconConteiner");
 let icon = document.querySelector("div.hamburgerIcon");
+let openBar = document.querySelector("div.barTheOption");
 
 conteiner.addEventListener("click", (e) => {
     e.currentTarget.classList.toggle("open");
-    
+    openBar.classList.toggle("openBar");
 });
+/////
