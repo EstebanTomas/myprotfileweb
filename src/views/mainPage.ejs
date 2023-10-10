@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/mainPage.css">
+    -->
+    <%- include("./partials/head.ejs") %>
     <title>DevTomás</title>
 </head>
 
 <body>
-    <header class="header-container">
+    <%- include("./partials/header.ejs") %>
+    <!-- <header class="header-container">
         <div class="div-main">
             <section class="oneSection">
                 <h4>Tomás Esteban Valiente</h4>
@@ -38,36 +41,21 @@
                 <div class="iconConteiner ">
                     <div class="hamburgerIcon "></div>
                 </div>
-                <div class="barTheOption">
-                    <ul class="close">
-                        <li class="menu-link">Inicio</li>
-                        <li class="menu-link">Habilidades</li>
-                        <li class="menu-link">Tomás Valiente</li>
-                        <li class="menu-link">Contacto</li>
-                    </ul>
-                </div>
             </section>
         </div>
     </header>
-    <!-- probando entrada de datos, excelente. -->
-    <main>
-        <!-- <% skills.forEach(i => { %>
-
-            <%= `mi skill es ${i} `%> <br>
-            <% }) %> -->
-        <section id="#" class="presentationSection">
-            <div class="">
-                <div class="circles"></div>
-                <!-- <img src="/img/photo_escritorio.jpg" alt="banner"  class="img-presentation"> -->
-                <p><b>FullStack Developer</b> feliz de hacer realidad tús proyectos, con tegnología de punta y
-                    UI-UX desing</>></p>
-            </div>
-        </section>
-        <section class="skillsSection"></section>
-        <section class="historySection"></section>
-        <section class="formSection"></section>
-    </main>
+    <div class="barTheOption">
+        <ul class="close">
+            <li class="menu-link">Inicio</li>
+            <li class="menu-link">Habilidades</li>
+            <li class="menu-link">Tomás Valiente</li>
+            <li class="menu-link">Contacto</li>
+        </ul>
+    </div> -->
+    <!-- -- probando entrada de datos, excelente. -->
+    
     <footer></footer>
+    <script src="/js/header.js"></script>
     <script src="/js/mainPage.js"></script>
 </body>
 
