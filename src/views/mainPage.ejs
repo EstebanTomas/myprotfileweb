@@ -12,48 +12,23 @@
 
 <body>
     <%- include("./partials/header.ejs") %>
-    <!-- <header class="header-container">
-        <div class="div-main">
-            <section class="oneSection">
-                <h4>Tomás Esteban Valiente</h4>
-                <h5>FullStack Developer</h5>
-            </section>
-            <section class="twoSection">
-                <nav class="nav-bar">
-                    <li class="the-bar-links">
-                        HTML5
-                    </li>
-                    <li class="the-bar-links">
-                        CSS3
-                    </li>
-                    <li class="the-bar-links">
-                        JavaScritp
-                    </li>
-                    <li class="the-bar-links">
-                        MySQL
-                    </li>
-                    <li class="the-bar-links">
-                        UI-UX Desing
-                    </li>
-                </nav>
-            </section>
-            <section>
-                <div class="iconConteiner ">
-                    <div class="hamburgerIcon "></div>
-                </div>
-            </section>
-        </div>
-    </header>
-    <div class="barTheOption">
-        <ul class="close">
-            <li class="menu-link">Inicio</li>
-            <li class="menu-link">Habilidades</li>
-            <li class="menu-link">Tomás Valiente</li>
-            <li class="menu-link">Contacto</li>
-        </ul>
-    </div> -->
-    <!-- -- probando entrada de datos, excelente. -->
-    
+    <main class="mainLabel">
+        <article>
+            <img src="/img/photo_escritorio.jpg" alt="banner" class="img-banner">
+            <h3 class="caption">FullStack Developer, feliz de hacer realidad tús projectos, con tegnología de punta y diseño UI-UX desing</h3>
+        </article>
+        <section>
+            <h3>Habilidades</h3>
+            <% skills.forEach( data => { %>
+                <ul>
+                    <li><%= data %></li> 
+                </ul>
+            <% }) %>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi accusamus expedita veniam ex, temporibus ut similique nam mollitia maxime, eligendi saepe ipsa voluptatem quia aliquid repudiandae possimus assumenda tempora magnam!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus omnis a molestias, maxime voluptatum dignissimos quo, nesciunt tempore iusto sequi, iure quam accusantium laboriosam quos. Molestias iste rerum inventore accusamus.
+            </p>
+        </section>
+    </main>
     <footer></footer>
     <script src="/js/header.js"></script>
     <script src="/js/mainPage.js"></script>

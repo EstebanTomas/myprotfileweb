@@ -15,3 +15,19 @@ conteiner.addEventListener("click", (e) => {
     openBar.classList.toggle("openBar");
 });
 /////
+
+/* 
+cambiar de lugar las etiquetas a for li
+- identificar el elemento
+- requerirlo desde mi archivo js y almacenarlo
+- agregarle un evento cuando scrolee sobré los elementos
+(el evento sucedera si paso el mouse sobre el elemento, este
+reaccionara con una breve transición, cambiando de color y agrandando las letras )
+*/
+
+
+// const start = document.querySelector("a#start");
+
+// start.addEventListener("scroll", (transitionElement) => {
+//     transitionElement.classList.toggle("scrool");
+// });
