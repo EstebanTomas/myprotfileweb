@@ -1,17 +1,28 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    font-family: 'Open Sans', Georgia, 'Times New Roman', Times, serif   ;
+}
+
+.mainLabel {
+    z-index: -50;
 }
 
 .img-banner {
-    width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
-.caption {
-    width: 90%;
-    text-align: center;
-    margin: auto
 
+.professionAndSubtitle {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -70px;
+    font-size: 15px;
 }
+
 @media (min-width: 400px ) {
+.professionAndSubtitle {
+    font-size: 19px;
+}
 }
 @media (min-width: 767px) {
     

@@ -7,31 +7,25 @@
     <link rel="stylesheet" href="/css/mainPage.css">
     -->
     <%- include("./partials/head.ejs") %>
-    <title>DevTomás</title>
+        <title>DevTomás</title>
 </head>
 
 <body>
     <%- include("./partials/header.ejs") %>
-    <main class="mainLabel">
-        <article>
-            <img src="/img/photo_escritorio.jpg" alt="banner" class="img-banner">
-            <h3 class="caption">FullStack Developer, feliz de hacer realidad tús projectos, con tegnología de punta y diseño UI-UX desing</h3>
-        </article>
-        <section>
-            <h3>Habilidades</h3>
-            <% skills.forEach( data => { %>
-                <ul>
-                    <li><%= data %></li> 
-                </ul>
-            <% }) %>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi accusamus expedita veniam ex, temporibus ut similique nam mollitia maxime, eligendi saepe ipsa voluptatem quia aliquid repudiandae possimus assumenda tempora magnam!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus omnis a molestias, maxime voluptatum dignissimos quo, nesciunt tempore iusto sequi, iure quam accusantium laboriosam quos. Molestias iste rerum inventore accusamus.
-            </p>
-        </section>
-    </main>
-    <footer></footer>
-    <script src="/js/header.js"></script>
-    <script src="/js/mainPage.js"></script>
+        <main class="mainLabel">
+            <!-- separar en secciones y darles a todas un tamaño que ocupe hasta los limites de la ventana -->
+            <section>
+                <div>
+                    <img src="/img/banner.png" alt="banner" class="img-banner">
+                </div>
+                <h2 class="professionAndSubtitle">Desarrollador Web Full Stack</h2>
+                <h4 class="professionAndSubtitle">Feliz de hacer lo que me gusta</h4>
+            </section>
+            <section></section>
+        </main>
+        <footer></footer>
+        <script src="/js/header.js"></script>
+        <script src="/js/mainPage.js"></script>
 </body>
 
 </html>
